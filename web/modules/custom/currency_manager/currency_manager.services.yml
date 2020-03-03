@@ -1,0 +1,4 @@
+services:
+  currency_manager.exchange_manager:
+    class: Drupal\currency_manager\Services\ExchangeRateManager
+    arguments: ['@http_client']

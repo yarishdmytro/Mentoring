@@ -1,0 +1,7 @@
+currency_manager.exchange_method:
+  path: '/currency-manager'
+  defaults:
+    _title: 'Currency Manager'
+    _controller: '\Drupal\currency_manager\Controller\ExchangeRateController::exchangeMethod'
+  requirements:
+    _permission: 'access content'

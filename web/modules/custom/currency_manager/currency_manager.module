@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * module file.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function currency_manager_theme() {
+  return [
+    'currency_rates_block' => [
+      'variables' => [
+        'currency_names' => NULL,
+        'currency_rates' => NULL,
+        'dates' => NULL,
+      ],
+    ],
+  ];
+}
