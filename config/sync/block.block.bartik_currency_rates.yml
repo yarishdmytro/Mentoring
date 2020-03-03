@@ -1,0 +1,27 @@
+uuid: d9c17c65-edf1-40e6-a5d3-ef3d50230f07
+langcode: en
+status: true
+dependencies:
+  module:
+    - currency_manager
+  theme:
+    - bartik
+id: bartik_currency_rates
+theme: bartik
+region: content
+weight: -2
+provider: null
+plugin: currency_rates
+settings:
+  id: currency_rates
+  label: 'Currency rates'
+  provider: currency_manager
+  label_display: visible
+  currencies:
+    - USD
+    - EUR
+    - CAD
+    - CHF
+    - RUB
+  amount_days: '7'
+visibility: {  }

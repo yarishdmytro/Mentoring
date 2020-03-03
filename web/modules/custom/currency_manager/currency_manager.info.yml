@@ -1,0 +1,5 @@
+name: 'Currency Manager'
+type: module
+description: 'Currency Manager Functionality'
+core: 8.x
+package: 'Currency Manager'

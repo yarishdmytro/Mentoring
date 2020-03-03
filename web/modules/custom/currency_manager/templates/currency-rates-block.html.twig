@@ -1,0 +1,31 @@
+{#
+/**
+* @file
+* Default theme implementation to display a block.
+*
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+
+<table>
+  <thead>
+  <tr>
+    <th>Currency:</th>
+    {% for date in dates %}
+      <th>{{ date }}</th>
+    {% endfor %}
+  </tr>
+  </thead>
+  <tbody>
+  {% for key,name in currency_names %}
+    <tr>
+      <th>{{ name }}</th>
+      {% for rate in currency_rates[key] %}
+        <td>{{ rate }}</td>
+      {% endfor %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>

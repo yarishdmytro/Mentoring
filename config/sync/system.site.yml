@@ -1,0 +1,14 @@
+uuid: 2e86492a-5f78-48f5-b817-bf9ab3d3a46e
+name: Mentoring
+mail: mentoring@expml.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
